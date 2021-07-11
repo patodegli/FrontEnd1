@@ -35,3 +35,9 @@ a:hover {
   padding: 5px;
   width: 100px;
 }
+
+.proyecto-2 {
+  border: 5px groove rgb(4, 53, 4);
+  padding: 5px;
+  width: 100px;
+}
