@@ -1,0 +1,18 @@
+main > p{
+  max-width: 80%;
+  margin: 30px auto;
+}
+
+.resaltada {
+  font-weight: bold;
+}
+
+/* .menu {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 30px;
+}
+
+li {
+  margin: 10px;
+} */
