@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+body h3 {
+  background-color: #1CD1B0;
+  font-weight: 400;
+  font-size: 15px;
+  padding: 1%;
+}
+
+header {
+  height: 101px;
+  background-color: #00669F;
+}
+
+header section {
+  display: flex;
+  justify-content: flex-start;
+  
+}
+
+header section h1{
+  
+  font-weight: 400;
+  font-size: 40px;
+  padding: 28px;
+}
+
+main section {
+  display: flex;
+  justify-content: space-around;
+  top: 292px;
+  bottom: 202px;
+  width: 100%;
+  padding: 10% 5%;
+  box-shadow: inset 0px 10px 5px rgba(0, 0, 0, 0.4);
+}
+
+article {
+  width: 300px;
+  /* height: 336px; */
+  position: relative;
+}
+
+article div img.center-img {
+  position: absolute;
+  border-radius: 50%;
+  padding: 0;
+  margin: auto;
+  top: 128px;
+  left: 90px;
+}
+
+article div img {
+  padding: 20px;
+}
+
+article div.background {
+  width: 300px;
+  height: 194px;
+}
+
+article div.dark {
+  background-image: url(/fe1/heroes/img/fondo-oscuro.png);
+}
+
+article div.pink {
+  background-image: url(/fe1/heroes/img/fondo-rosa.png);
+}
+
+article div.card-down {
+  background-color: #F3F3F3;
+  width: 300px;
+  height: 336px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.4);
+
+}
+
+main article h2 {
+  padding-top: 74px;
+  text-align: center;
+}
+
+ main article div p {
+  width: 267px;
+  padding: 16px;
+}
+
+main article div button {
+  width: 128px;
+  height: 49px;
+  background-color: #00669F;
+  border-width: 0px !important;
+  font-size: 15px;
+  color: white;
+  align-self: center;
+} 
+
+footer {
+  height: 51px;
+  background-color: #00669F;
+  color: white;
+  font-size: 16px;
+  padding: 16px;
+}

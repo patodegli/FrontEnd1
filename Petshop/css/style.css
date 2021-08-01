@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;;
+}
+
+/* ******** Header ******** */
+
+.header-section1 {
+  background-color: #222222;
+  color: #F3F3F3;
+}
+
+.header-section2 {
+  background-color: #F0A83E;
+  color: #FFFFFF;
+}
+
+/* h1 {
+  text-align: center;
+} */
+
+/* ******* Main ****** */
+
+.img-background {
+  /* width: 100%; */
+  background-size: cover;
+}
+
+.main-section1 {
+  background-image: url(/fe1/Petshop/img/bowl-and-pet-daities-on-green-background\ 1.png);
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-size: cover;
+  height: 409px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 5%;
+
+}
+
+section.main-section1 > h2, p, button {
+  position: absolute;
+  
+  
+  
+} 
+
+
