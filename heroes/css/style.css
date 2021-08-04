@@ -26,11 +26,36 @@ header section {
   
 }
 
+header section img {
+  padding-left: 10px;
+}
+
 header section h1{
   
   font-weight: 400;
   font-size: 40px;
-  padding: 28px;
+  padding: 26px;
+}
+
+header div.nav {
+  height: 40px;
+  background-color: #001D2D;
+  color: white;
+  box-shadow: 0px 10px 5px rgb(0 0 0 / 40%);
+}
+
+header div nav ul {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  gap: 13px;
+  padding: 11px 20px;
+  
+}
+
+header div nav ul li a {
+  color: white;
+  text-decoration: none;
 }
 
 main section {
@@ -40,7 +65,7 @@ main section {
   bottom: 202px;
   width: 100%;
   padding: 10% 5%;
-  box-shadow: inset 0px 10px 5px rgba(0, 0, 0, 0.4);
+  
 }
 
 article {
@@ -111,4 +136,6 @@ footer {
   color: white;
   font-size: 16px;
   padding: 16px;
+  display: flex;
+  justify-content: center;
 }

@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+body h3 {
+  background-color: #1CD1B0;
+  font-weight: 400;
+  font-size: 15px;
+  padding: 1%;
+}
+
+header {
+  height: 101px;
+  background-color: #00669F;
+}
+
+header section {
+  display: flex;
+  justify-content: flex-start;
+  
+}
+
+header section img {
+  padding-left: 10px;
+}
+
+header section h1{  
+  font-weight: 400;
+  font-size: 30px;
+  padding: 26px;
+  color: white;
+}
+
+header div.nav {
+  height: 40px;
+  background-color: #001D2D;
+  color: white;
+  box-shadow: 0px 10px 5px rgb(0 0 0 / 40%);
+}
+
+header div nav ul {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  gap: 13px;
+  margin: 11px 20px;
+  
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 126px auto 252px;
+  width: 620px;
+}
+
+main h2 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 72px;
+  align-self: center;
+  padding-left: 20px;
+
+}
+
+main form div.input-form{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+main form div input, select {
+  height: 60px;
+  font-size: 20px;
+  font-family: "Karla", sans-serif;
+  border-color: #000000;
+  border: 1,53px;
+  padding: 17px 9px;
+  margin: 10px;
+}
+
+main form div button.btn {
+  width: 300px;
+  height: 53px;
+  border-radius: 23px;
+  font-family: "Karla", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  border: 0px;
+}
+
+.div-btn {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+.btn-gray {
+  background-color: #888888;
+}
+
+.btn-blue {
+  background-color: #1CD1B0;
+}
+
+footer {
+  height: 51px;
+  background-color: #00669F;
+  color: white;
+  font-size: 16px;
+  padding: 16px;
+  display: flex;
+  justify-content: center;
+}
